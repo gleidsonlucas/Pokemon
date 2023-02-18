@@ -6,16 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokémons Iniciais</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/imagens/android-chrome-192x192.png" type="image/x-icon">
 </head>
 <body>
     <header>
-
+        <h1>Escolha seu Pokemon Favorito</h1>
     </header>
     <main>
-
+        <div id="info">
+            <h1>1° Geração de Pokemons</h1>
+            <img src="imagens/Pokemon-G1-610x322.jpg" alt="3 Pokemons primeira geração">
+            <p>
+                <input type="radio" name="pokemon" id="IpokemonC">
+                <label for="IpokemonC">Charmander</label>
+                <input type="radio" name="pokemon" id="IpokemonB">
+                <label for="IpokemonB">Bulbassauro</label>
+                <input type="radio" name="pokemon" id="IpokemonS">
+                <label for="IpokemonS">Squirtle</label>
+            </p>
+            <h2>Qual Evolução você quer ver?</h2>
+            <p>
+                <input type="radio" name="numE" id="nu1">  <label for="nu1">1° Evolução</label>
+                <input type="radio" name="numE" id="nu2">
+                <label for="nu2">2° Evolução</label>
+                <input type="radio" name="numE" id="nu3">
+                <label for="nu3">3° Evolução</label>
+            </p>
+            <p>
+                <input type="button" value="Analisar" onclick="Clicou()">
+            </p>
+        </div>
+        <div id="res">
+            <h2>Resultado</h2>
+        </div>
     </main>
     <footer>
-
+        <p>Desenvolvido por &copy;Gleidson Lucas</p>
     </footer>
     <script src="scripit.js"></script>
 </body>
