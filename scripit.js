@@ -8,7 +8,6 @@ function Clicou(){
    // Charmander
    if (pokemon[0].checked){ 
       pokescolha = 'Charmander'
-      window.alert(`VC esclheu ${pokescolha}`)
       imagem.src = 'imagens/004.png'
       if (gera[0].checked){
          pgera = '1 evolução'
@@ -31,7 +30,6 @@ function Clicou(){
    // bulbassauro
    if (pokemon[1].checked){ 
     pokescolha = 'Bulbassauro'
-    window.alert(`VC esclheu ${pokescolha}`)
     if (gera[0].checked){
        pgera = '1 evolução'
        res.innerHTML = `Bulbasauro é um pokémon do tipo planta/veneno. Ele é conhecido por sua semente em suas costas, que cresce à medida que ele evolui. Ele evolui para Ivysaur no nível 16 e depois para Venusaur no nível 32. Venusaur é um dos pokémons mais poderosos da primeira geração, com alta defesa e ataque especial.
@@ -51,7 +49,6 @@ function Clicou(){
     }
     if (pokemon[2].checked){ 
     pokescolha = 'Squirtle'
-    window.alert(`VC esclheu ${pokescolha}`)
     if (gera[0].checked){
       pgera = '1 evolução'
       res.innerHTML = `Squirtle é um pokémon do tipo água. Ele é conhecido por sua casca dura em suas costas, que o protege de ataques. Ele evolui para Wartortle no nível 16 e depois para Blastoise no nível 36. Blastoise é um dos pokémons mais fortes da primeira geração, com alta defesa e um poderoso canhão de água em suas costas.
