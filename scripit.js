@@ -1,4 +1,6 @@
 function Clicou(){
+   var p1 = window.document.getElementById('form')
+   var p2 = window.document.getElementById('evo')
    var pokemon = window.document.getElementsByName('pokemon')
    var gera = window.document.getElementsByName('numE')
    var pokescolha = ''
@@ -9,6 +11,8 @@ function Clicou(){
    if (pokemon[0].checked){ 
       pokescolha = 'Charmander'
       imagem.src = 'imagens/004.png'
+      imagem.style.width= '200px'
+      imagem.style.height= '200px'
       if (gera[0].checked){
          pgera = '1 evolução'
          res.innerHTML = `Charmander é um pokémon do tipo fogo. Ele é conhecido por sua chama em sua cauda, que indica sua saúde e força. Ele evolui para Charmeleon no nível 16 e depois para Charizard no nível 36. Charizard é um dos pokémons mais populares da primeira geração, com grande velocidade e poder de ataque
@@ -68,3 +72,4 @@ function Clicou(){
     }
     }
   }
+

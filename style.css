@@ -8,6 +8,7 @@
     padding: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 header{
     background-color: rgb(98, 140, 231);
     color: white;
@@ -71,26 +72,7 @@ input#ana{
     padding: 5px;
     border-radius: 5px;
 }
-footer{
-    background-color: bisque;
-    font-size: 1.4em;
-    font-weight: 500;
-    margin-top: 28px;
-    text-align: center;
-}
-a{
-    font-size: 1.2em;
-    font-weight: bolder;
-    color: rgb(0, 0, 0);
-    text-shadow: 1px 2px 1px #ffffff, 2px 3px 1px, #ffffff, 4px 3px 1px #ffffff, 3px 4px 1px #ffffff, 5px 4px 1px #fffbfb, 4px 5px 1px #ffffff, 6px 5px 1px #ffffff, 5px 6px 1px #ffffff, 7px 6px 1px #ffffff;
-}
-a:hover{
-    color: red;
-    text-shadow: 1px 2px 1px #000000, 2px 3px 1px, #000000, 4px 3px 1px #000000, 3px 4px 1px #000000, 5px 4px 1px #000000, 4px 5px 1px #000000, 6px 5px 1px #000000, 5px 6px 1px #000000, 7px 6px 1px #030303;
-}
-a:active{
-    color: blue;
-}
+
 p#evo{
     font-size: 25px;
 }
@@ -108,3 +90,64 @@ div#res{
     font-size: 1.5em;
     text-align: justify
 }
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 20px;
+    background-color: #0e4c92; /* azul predominante */
+    color: white; /* texto branco */
+    padding: 20px; /* espaçamento interno */
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5), 
+                0px 0px 10px 0px rgba(0, 0, 0, 0.5),
+                0px 0px 15px 0px rgba(0, 0, 0, 0.5); /* sombra */
+    text-align: center; /* centralizar o conteúdo */
+    font-size: 25px; /* tamanho da fonte */
+  }
+  
+  footer a {
+    color: #ffdd00; /* amarelo predominante */
+    text-decoration: none; /* remover sublinhado */
+    transition: all 0.2s ease-in-out; /* animação de transição */
+  }
+  
+  footer a:hover {
+    color: #ffbb00; /* amarelo mais escuro */
+    text-decoration: underline; /* sublinhar ao passar o mouse */
+    transform: scale(1.2); /* aumenta o tamanho do link */
+    transition: all 0.3s ease-in-out; /* animação de transição mais lenta */
+  }
+  
+  footer p {
+    font-size: 18px; /* tamanho do texto */
+    margin: 0; /* margem zero */
+    padding: 10px 0; /* espaçamento interno */
+    border-top: 1px solid #fff; /* borda superior */
+  }
+  @media screen and (orientation: portrait) {
+    header h1{
+        font-size: 1.4em;
+    }
+    main h1{
+        font-size: 1.5em;
+    }
+    main{
+        width: 285px;
+    }
+    div#info > img{
+        width: 275px;
+    }
+    p.form{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    p#evo{
+        font-size: 14px;
+    }
+    div#res{
+        padding: 10px;
+        line-height: normal;
+        font-size: 1.2em;
+        text-align: justify
+    }
+  }
