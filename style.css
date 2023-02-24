@@ -91,16 +91,12 @@ div#res{
     text-align: justify
 }
 footer {
-    position: relative;
-    left: 0;
     bottom: 0;
     margin-top: 20px;
     background-color: #0e4c92; /* azul predominante */
     color: white; /* texto branco */
     padding: 20px; /* espaçamento interno */
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5), 
-                0px 0px 10px 0px rgba(0, 0, 0, 0.5),
-                0px 0px 15px 0px rgba(0, 0, 0, 0.5); /* sombra */
+     /* sombra */
     text-align: center; /* centralizar o conteúdo */
     font-size: 25px; /* tamanho da fonte */
   }
@@ -122,7 +118,6 @@ footer {
     font-size: 18px; /* tamanho do texto */
     margin: 0; /* margem zero */
     padding: 10px 0; /* espaçamento interno */
-    border-top: 1px solid #fff; /* borda superior */
   }
   @media screen and (orientation: portrait) {
     header h1{
@@ -149,5 +144,8 @@ footer {
         line-height: normal;
         font-size: 1.2em;
         text-align: justify
+    }
+    footer p{
+        font-size: 15px;
     }
   }
