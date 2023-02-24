@@ -58,7 +58,7 @@ div#info > img{
     box-shadow: 1px 5px 2px rgba(0, 0, 0, 0.507);
 }
 p.form{
-    font-size: 27px;
+    font-size: 30px;
     font-weight: bold;
 }
 main h2{
@@ -74,7 +74,7 @@ input#ana{
 }
 
 p#evo{
-    font-size: 25px;
+    font-size: 30px;
 }
 p#p2{
     line-height: 30px;
@@ -85,6 +85,7 @@ p#p2{
     padding: 10px;
 }
 div#res{
+    text-indent: 20px;
     padding: 10px;
     line-height: normal;
     font-size: 1.5em;
@@ -133,19 +134,20 @@ footer {
         width: 275px;
     }
     p.form{
-        font-size: 15px;
+        font-size: 25px;
         font-weight: bold;
     }
     p#evo{
-        font-size: 14px;
+        font-size: 24px;
     }
     div#res{
         padding: 10px;
         line-height: normal;
         font-size: 1.2em;
-        text-align: justify
+        text-align: justify;
     }
     footer p{
-        font-size: 15px;
+        font-size: 20px;
+        padding-bottom: 10px;
     }
   }
